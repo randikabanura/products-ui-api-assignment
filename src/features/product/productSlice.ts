@@ -94,20 +94,10 @@ export const { removeCurrentProduct } = productSlice.actions
 
 // The function below is called a selector and allows us to select a value from
 // the state. Selectors can also be defined inline where they're used instead of
-// in the slice file. For example: `useSelector((state: RootState) => state.counter.value)`
+// in the slice file. For example: `useSelector((state: RootState) => state.product.product)`
 export const selectProduct = (state: RootState) => state.product.product
 export const selectProducts = (state: RootState) => state.product.products
 export const currentStatus = (state: RootState) => state.product.status
 
-// We can also write thunks by hand, which may contain both sync and async logic.
-// Here's an example of conditionally dispatching actions based on current state.
-// export const removeCurrentProduct =
-//   (id: number): AppThunk =>
-//   (dispatch, getState) => {
-//     const currentValue = selectCount(getState())
-//     if (currentValue % 2 === 1) {
-//       dispatch(incrementByAmount(amount))
-//     }
-//   }
 
 export default productSlice.reducer
