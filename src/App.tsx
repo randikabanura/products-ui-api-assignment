@@ -1,4 +1,3 @@
-import logo from "./logo.svg"
 import { Products } from "./features/product/components/Products"
 import "./App.css"
 import { Container } from "@mui/material";
