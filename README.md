@@ -1,5 +1,19 @@
 # Products UI API Assignment
 
+# Features
+
+* Product Search Page
+* Debounce Search
+* Product View Page
+* Ability to clear the search
+
+## Technologies
+
+* React
+* MaterialUI v5
+* Typescript
+* Redux
+
 ## Previews
 
 ![Index Page](docs/index-view.png "Index Page")
